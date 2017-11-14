@@ -1,5 +1,7 @@
 # Github Search Repos
 
-An exploration of redux-observable
+A public exploration of redux-observable.
 
-Open your Redux Chrome debugger to watch the actions.
+To see this code in action, [click here](https://dalenberg.github.io/redux-search-interface/)
+
+Open up your Redux Chrome debugger to watch the state/actions.
