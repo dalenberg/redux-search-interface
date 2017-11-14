@@ -1,0 +1,51 @@
+.SearchResults {
+  border-top: 1px solid #fff;
+}
+
+.Result {
+  display: block;
+  padding: 15px 20px;
+  border-bottom: 1px solid #fff;
+  color: var(--text-color);
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.Result:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.Result-title {
+  margin: 0;
+  padding: 5px 0;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.Result-description {
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0;
+  padding: 5px 0;
+  color: var(--text-color-light);
+}
+
+.Result-content {
+  display: flex;
+  padding: 4px 0;
+}
+
+.Result-meta {
+  color: var(--text-color-light);
+  font-size: 12px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.Result-avatar {
+  display: block;
+  margin-right: 8px;
+  border-radius: 2px;
+  align-items: center;
+}

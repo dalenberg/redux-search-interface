@@ -1,0 +1,22 @@
+.SearchFilter {
+  display: flex;
+  margin: 5px 10px 5px 0;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+}
+
+.SearchFilter-button {
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  padding: 6px 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+}
+
+.SearchFilter-button--active {
+  color: var(--primary-color);
+  background-color: rgba(0, 0, 0, 0.4);
+}
